@@ -1,0 +1,51 @@
+Logistic Regression - Best Params: {'solver': 'liblinear', 'C': 10}
+Accuracy: 0.9397
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.95       241
+           1       0.94      0.96      0.95       170
+           2       1.00      0.73      0.84        11
+           3       0.00      0.00      0.00         4
+           4       1.00      0.25      0.40         4
+           5       0.00      0.00      0.00         1
+
+    accuracy                           0.94       431
+   macro avg       0.65      0.48      0.52       431
+weighted avg       0.93      0.94      0.93       431
+
+==================================================
+Decision Tree - Best Params: {'min_samples_split': 5, 'max_depth': 30}
+Accuracy: 0.8886
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.93      0.91       241
+           1       0.90      0.88      0.89       170
+           2       1.00      0.73      0.84        11
+           3       0.00      0.00      0.00         4
+           4       0.00      0.00      0.00         4
+           5       0.00      0.00      0.00         1
+
+    accuracy                           0.89       431
+   macro avg       0.46      0.42      0.44       431
+weighted avg       0.87      0.89      0.88       431
+
+==================================================
+Random Forest - Best Params: {'n_estimators': 200, 'max_depth': None}
+Accuracy: 0.9304
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.95      0.94       241
+           1       0.93      0.96      0.94       170
+           2       1.00      0.73      0.84        11
+           3       0.00      0.00      0.00         4
+           4       1.00      0.25      0.40         4
+           5       0.00      0.00      0.00         1
+
+    accuracy                           0.93       431
+   macro avg       0.64      0.48      0.52       431
+weighted avg       0.92      0.93      0.92       431
+
+==================================================
