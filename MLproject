@@ -1,0 +1,9 @@
+name: ArticleClassification
+
+conda_env: environment.yml  # Specify your Conda environment file
+
+entry_points:
+  main:
+    parameters:
+      data_path: {type: str, default: "./data/articles.csv"}
+    command: "python main.py --data_path {data_path}"
