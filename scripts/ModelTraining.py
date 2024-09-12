@@ -98,7 +98,7 @@ class ModelTraining:
         """
         return self.vectorizer.fit_transform(X),self.vectorizer
 
-        # or Below Bert BertTokenizer belwo we can use
+        # or Below Bert BertTokenizer belwo we can use while loading its taking more time in my machine
 
     # def __init__(self):
     #     # Load pre-trained BERT model and tokenizer

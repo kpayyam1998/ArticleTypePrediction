@@ -29,9 +29,14 @@ class DataLoader:
         print("\nMissing values per column:")
         print(data.isnull().sum())  # Check for missing values
         
+        
+        print("\nPreview of the data:")
+        print(data.shape)
+
         print("\nPreview of the data:")
         print(data.head())  # Show first few rows of the dataset
 
+        # We can perform more exploration operations here
 # # Example usage:
 # if __name__ == "__main__":
 #     file_path = "../data/articles.csv"  # 

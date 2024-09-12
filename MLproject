@@ -1,6 +1,6 @@
 name: ArticleClassification
 
-conda_env: environment.yml  # Specify your Conda environment file
+conda_env: environment.yml  # Specify  Conda environment file
 
 entry_points:
   main:

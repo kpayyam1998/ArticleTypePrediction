@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 # nltk.download('stopwords')
 # #nltk.download('punkt')
 # nltk.download('wordnet')
-# nltk.download('omw-1.4')
+# nltk.download('omw-1.4') If already downloaded then no need to mention it
 
 import warnings
 warnings.filterwarnings('ignore')

@@ -3,7 +3,7 @@ import pickle
 
 app = Flask(__name__)
 
-# Create a class to handle model loading, prediction, and category mapping
+# Created a class to handle model loading, prediction, and category mapping
 class ArticleClassifier:
     def __init__(self, model_path, vectorizer_path):
         self.model_path = model_path
@@ -19,8 +19,14 @@ class ArticleClassifier:
             "Financing": 5,
             "Training": 6
         }
+
+        """
+        we can give directly instead of reverse category mapping but we need to chnage the above dictionary.
+        While training i have used above dict format to convert articletype to numerical category the same format i have used everywhere
+
+        """
         # Create a reverse mapping from numbers to category names
-        self.reverse_category_mapping = {v: k for k, v in self.Article_type.items()}
+        self.reverse_category_mapping = {v: k for k, v in self.Article_type.items()} 
 
     def load_model_and_vectorizer(self):
         

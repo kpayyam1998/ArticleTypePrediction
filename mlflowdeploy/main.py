@@ -1,3 +1,7 @@
+"""
+This mlflow deployment script file is not fully completed yet.
+"""
+
 import pandas as pd
 from scripts.DataLoader import DataLoader
 from scripts.DataPreprocess import DataPreprocessor
@@ -85,3 +89,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
