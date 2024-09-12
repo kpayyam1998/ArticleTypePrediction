@@ -9,7 +9,7 @@ This project focuses on classifying articles into predefined categories using ma
 3. [Train the Model](#train-the-model)
 4. [Prediction](#prediction)
 5. [MLflow Deployment](#mlflow-deployment)
-6. [Additional Resources](#additional-resources)
+
 
 ## Clone the Repository
 
