@@ -20,6 +20,11 @@ class CategoryMapping:
             "Financing": 5,
             "Training": 6
         }
+        """
+        we can give directly instead of reverse category mapping but we need to chnage the above dictionary.
+        While training i have used above dict format to convert articletype to numerical category the same format i have used everywhere
+
+        """
         # Create reverse mapping
         self.reverse_category_mapping = {v: k for k, v in self.Article_type.items()}
 
